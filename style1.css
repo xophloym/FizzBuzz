@@ -1,0 +1,28 @@
+#displayItems {
+  list-style: none;
+  font-family: arial;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+
+#mainButton {
+  width: 173px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 100%;
+  background-color: red;
+  color: black;
+  border: solid black 2px;
+  outline-color: #ffe500;
+}
+
+#mainButton:hover {
+  background-color: #00fdff;
+  color: #ad00ff;
+  cursor: context-menu;
+}
